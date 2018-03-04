@@ -1,66 +1,47 @@
 <html>
-
 <head>
   <title>Tmall</title>
-  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-  <!--  -->
-  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
-  <!-- 新 Bootstrap 核心 CSS 文件 -->
-  <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
-  <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
-  <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
-  <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
-  <script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-  <!-- CSS样式 -->
   <style type="text/css">
-    body {
-      font-size: 12px;
-      font-family: Arial;
-    }
+  body {
+    font-size: 12px;
+    font-family: Arial;
+  }
+.header {
+  background-color: #F2F2F2;
+}
+a {color: #999999;
+}
+.redColor {
+  color: #C40000 !important;
+}
+nav.top {
+  background-color: #f2f2f2;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #e7e7e7;
+}
+nav.top span,nav.top a {
+  color: #999;
+  margin: 0px 10px 0px 10px;
+}
+nav.top a:hover {
+color: #C40000;
+text-decoration: none;
+}
 
-    a {
-      color: #999999;
-      /* 天猫所有链接颜色均为红色 */
-    }
-
-    .redColor {
-      color: #C40000 !important;
-      /* 。。 */
-    }
-
-    nav.top {
-      background-color: #f2f2f2;
-      padding-top: 5px;
-      padding-bottom: 5px;
-      border-bottom: 1px solid #e7e7e7;
-    }
-
-    nav.top span,
-    nav.top a {
-      color: #999;
-      margin: 0px 10px 0px 10px;
-      /*span和超链的左右边距均为10px，没有上下边距 */
-    }
-
-    nav.top a:hover {
-      color: #C40000;
-      text-decoration: none;
-      /* 鼠标悬停时超链为红色，没有下划线*/
-    }
   </style>
-</head>
-
-<body>
-  <nav class="top"> <!-- 用nav的意义在于让搜索引擎知道这是导航栏 -->
-    <span>喵，欢迎来到天猫</span> <!-- 超链和span是内联元素不会跳行 -->
-    <a href="">请登陆</a>
-    <a href="">免费注册</a>
-    <span class="pull-right"> <!-- pull-right来自bootstrap，飘浮在右侧 -->
+ </head>
+ <body>
+   <nav class="top">
+     <span>喵，欢迎来到天猫</span>
+     <a href="">请登陆</a>
+     <a href="">免费注册</a>
+     <span class="pull-right">
      <a href="forebought">我的订单</a>
      <a href="forecast">
        <span class=""></span>购物车<strong>0</strong>件</a>
-    </span>
-  </nav>
-</body>
+     </span>
+   </nav>
+  </body>
 
 </html>
