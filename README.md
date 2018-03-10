@@ -10,3 +10,5 @@ FOOTER1 DEMO      
 http://htmlpreview.github.io/?https://github.com/1393925530/TMALL/blob/master/footer1.html    
 FOOTER2 DEMO    
 http://htmlpreview.github.io/?https://github.com/1393925530/TMALL/blob/master/footer2.html    
+CAROUSEL DEMO    
+http://htmlpreview.github.io/?https://github.com/1393925530/TMALL/blob/master/carousel.html (静态页面)
